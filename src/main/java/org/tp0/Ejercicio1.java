@@ -34,6 +34,9 @@ public class Ejercicio1 {
         for (int i = 0; i < n; i++) {
             trace += matriz[i][i];
         }
+
+        int complejidad = (filas * columnas) + Math.max(filas, columnas);
+        System.out.println("Complejidad compuacional de: " + "O(" + complejidad + ")" + "\n");
         return trace;
     }
 
@@ -44,13 +47,15 @@ public class Ejercicio1 {
         int columnas = scanner.nextInt();
         int[][] matriz = createMatrix(filas, columnas);
 
-        int[][] traspuesta = new int[columnas][filas];
+        int[][] traspuesta = new int[columnas][filas]; //O(1)
 
         for (int i = 0; i < filas; i++) {
             for (int j = 0; j < columnas; j++) {
                 traspuesta[j][i] = matriz[i][j];
             }
         }
+
+        System.out.println("Complejidad compuacional de: " + "Complejidad total ≈ O(1)" + "\n");
 
         return traspuesta;
     }
@@ -71,6 +76,8 @@ public class Ejercicio1 {
             }
         }
 
+        int complejidad = (filas * columnas);
+        System.out.println("Complejidad compuacional de: " + "O(" + complejidad + ")" + "\n");
         return sum;
     }
 
