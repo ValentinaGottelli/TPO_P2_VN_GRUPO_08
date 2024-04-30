@@ -64,7 +64,7 @@ public class Main {
                     System.out.println("Cerrando...");
                     break;
                 default:
-                    System.out.println("Invalid opcion. Please enter a number between 1 and 7.");
+                    System.out.println("Opcion invalida");
             }
         } while (opcion != 7);
 
