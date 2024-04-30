@@ -7,7 +7,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-
         Scanner scanner = new Scanner(System.in);
         int opcion;
 
@@ -27,6 +26,18 @@ public class Main {
             switch (opcion) {
                 case 1:
                     System.out.println("Eligio el Ejercicio 1");
+                    System.out.printf("");
+
+                    System.out.printf("Calculo de traza" + "\n");
+                    System.out.println(Ejercicio1.resolucionTraza());
+                    System.out.printf("");
+
+                    System.out.printf("Traspuesta de la matriz" + "\n");
+                    Ejercicio1.imprimirMatrix(Ejercicio1.traspuesta());
+                    System.out.printf("");
+
+                    System.out.printf("Suma matricial"+ "\n");
+                    Ejercicio1.imprimirMatrix(Ejercicio1.sumaMatrices());
 
                     break;
                 case 2:
