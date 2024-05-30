@@ -8,18 +8,18 @@ public class Ejercicio1 {
 
     private static int[][] createMatrix(int filas, int columnas) {
 
-        int[][] matrix = new int[filas][columnas];
+        int[][] matrix = new int[filas][columnas]; //C1
 
-        System.out.println("Ingrese los numeros de su matriz:");
+        System.out.println("Ingrese los numeros de su matriz:"); //C2
 
-        for (int i = 0; i < filas; i++) {
-            for (int j = 0; j < columnas; j++) {
-                System.out.print("Ingrese un numero en la posicion (" + (i + 1) + ", " + (j + 1) + "): ");
-                matrix[i][j] = scanner.nextInt();
+        for (int i = 0; i < filas; i++) { // N1
+            for (int j = 0; j < columnas; j++) { //N2
+                System.out.print("Ingrese un numero en la posicion (" + (i + 1) + ", " + (j + 1) + "): "); //C3
+                matrix[i][j] = scanner.nextInt(); //C4
             }
         }
-
-        return matrix;
+        System.out.println("Complejidad compuacional de: O(C1+C2+N1*N2*(C3+C4)+C5) ≈ O( C + N^2 * C) caso particular de O(N^2)  " + "\n");
+        return matrix; //C5
     }
 
     public static int resolucionTraza() {

@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32230aae-234e-4544-8c06-abc88d68b3a5" name="Changes" comment="initial">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/Ejercicio4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/Ejercicio1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
