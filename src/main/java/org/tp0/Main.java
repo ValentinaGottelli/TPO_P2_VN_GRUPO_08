@@ -1,5 +1,7 @@
 package org.tp0;
 
+import org.tp0.implementations.QueueOfStacks;
+
 import java.util.Scanner;
 
 public class Main {
@@ -29,15 +31,15 @@ public class Main {
                     System.out.printf("");
 
                     System.out.printf("Calculo de traza" + "\n");
-                    System.out.println(Ejercicio1.resolucionTraza());
+                    System.out.println(QueueOfStacks.resolucionTraza());
                     System.out.printf("");
 
                     System.out.printf("Traspuesta de la matriz" + "\n");
-                    Ejercicio1.imprimirMatrix(Ejercicio1.traspuesta());
+                    QueueOfStacks.imprimirMatrix(QueueOfStacks.traspuesta());
                     System.out.printf("");
 
                     System.out.printf("Suma matricial"+ "\n");
-                    Ejercicio1.imprimirMatrix(Ejercicio1.sumaMatrices());
+                    QueueOfStacks.imprimirMatrix(QueueOfStacks.sumaMatrices());
 
                     break;
                 case 2:

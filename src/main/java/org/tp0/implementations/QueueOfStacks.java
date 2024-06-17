@@ -1,8 +1,10 @@
-package org.tp0;
+package org.tp0.implementations;
+
+import org.tp0.models.IQueueOfStacks;
 
 import java.util.Scanner;
 
-public class Ejercicio1 {
+public class QueueOfStacks implements IQueueOfStacks {
 
     public static Scanner scanner = new Scanner(System.in);
 
