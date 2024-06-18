@@ -7,9 +7,6 @@
     <list default="true" id="32230aae-234e-4544-8c06-abc88d68b3a5" name="Changes" comment="arreglo un poco el ejercicio 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfStacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/models/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QueueOfStacksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QueueOfStacksTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +161,7 @@
       <updated>1714446447533</updated>
       <workItem from="1718666821957" duration="67000" />
       <workItem from="1718667145556" duration="4050000" />
-      <workItem from="1718674359800" duration="10445000" />
+      <workItem from="1718674359800" duration="10756000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1714446488199</created>
@@ -203,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718682754936</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="arreglo un poco el ejercicio 1">
+      <option name="closed" value="true" />
+      <created>1718684950401</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718684950401</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

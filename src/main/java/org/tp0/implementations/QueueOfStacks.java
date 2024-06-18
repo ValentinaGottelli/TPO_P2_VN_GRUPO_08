@@ -10,10 +10,12 @@ public class QueueOfStacks implements IQueueOfStacks {
     private int n;
     private int count;
 
+
+    //O(N)
     //tamaño de nxn
     public QueueOfStacks(int n) {
         this.stacks = new StaticStack[n];
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) { //N
             stacks[i] = new StaticStack(n);
         }
         this.n = n;
@@ -45,12 +47,13 @@ public class QueueOfStacks implements IQueueOfStacks {
         return trace;
     }
 
+    //Complejidad de O(N+N^2)
     public static QueueOfStacks traspuesta(QueueOfStacks queueOfStacks) {
-        QueueOfStacks traspuesta = new QueueOfStacks(queueOfStacks.getN());
+        QueueOfStacks traspuesta = new QueueOfStacks(queueOfStacks.getN()); //O(N)
 
-        for (int i = 0; i < queueOfStacks.getN(); i++) {
-            for (int j = 0; j < queueOfStacks.getN(); j++) {
-                traspuesta.stacks[j].add(queueOfStacks.stacks[i].get(j));
+        for (int i = 0; i < queueOfStacks.getN(); i++) { //N
+            for (int j = 0; j < queueOfStacks.getN(); j++) {//N
+                traspuesta.stacks[j].add(queueOfStacks.stacks[i].get(j));//c
             }
         }
 
