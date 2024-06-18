@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32230aae-234e-4544-8c06-abc88d68b3a5" name="Changes" comment="hago cambios en los ejercicios de complejidad computacional">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/IQueueOfStacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/Set.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/Stack.java" afterDir="false" />
+    <list default="true" id="32230aae-234e-4544-8c06-abc88d68b3a5" name="Changes" comment="arreglo un poco el ejercicio 1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/QueueOfStacksTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfStacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfStacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/models/IQueueOfStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/IQueueOfStacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/models/Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/Set.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/models/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,6 +43,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ValentinaGottelli&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ValentinaGottelli/TPO_P2_VN_GRUPO_08.git&quot;,
+    &quot;accountId&quot;: &quot;460005ec-f6f1-41ca-ba88-5240500ea9a5&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -58,12 +72,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.All in TPO_P2_VN_GRUPO_08.executor": "Run",
+    "JUnit.QueueOfStacksTest.testTraza.executor": "Run",
+    "Maven.TPO_P2_VN_GRUPO_08 [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "ej1",
+    "git-widget-placeholder": "#3 on ej1",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/valus/Desktop/TPO_P2_VN_GRUPO_08/TPO_P2_VN_GRUPO_08/src/main/java/org/tp0",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -71,8 +94,12 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\valus\Desktop\TPO_P2_VN_GRUPO_08\TPO_P2_VN_GRUPO_08\src\main\java\org\tp0" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.tp0.implementations" />
+      <recent name="org.tp0.models" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.QueueOfStacksTest.testTraza">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.tp0.Main" />
       <module name="TPO_P2_VN_GRUPO_08" />
@@ -86,8 +113,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in TPO_P2_VN_GRUPO_08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TPO_P2_VN_GRUPO_08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueOfStacksTest.testTraza" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TPO_P2_VN_GRUPO_08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QueueOfStacksTest" />
+      <option name="METHOD_NAME" value="testTraza" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QueueOfStacksTest.testTraza" />
+        <item itemvalue="JUnit.All in TPO_P2_VN_GRUPO_08" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -109,7 +156,8 @@
       <option name="presentableId" value="Default" />
       <updated>1714446447533</updated>
       <workItem from="1718666821957" duration="67000" />
-      <workItem from="1718667145556" duration="209000" />
+      <workItem from="1718667145556" duration="4050000" />
+      <workItem from="1718674359800" duration="8286000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1714446488199</created>
@@ -132,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717035958359</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="arreglo un poco el ejercicio 1">
+      <option name="closed" value="true" />
+      <created>1718667375467</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718667375467</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +208,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
     <MESSAGE value="hago cambios en los ejercicios de complejidad computacional" />
-    <option name="LAST_COMMIT_MESSAGE" value="hago cambios en los ejercicios de complejidad computacional" />
+    <MESSAGE value="arreglo un poco el ejercicio 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglo un poco el ejercicio 1" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package org.example.definition;
+package org.tp0.models;
 
 /**
  * Precondicion: para usar cualquier de estos metodos la estructura debe estar inicializada.
@@ -27,5 +27,9 @@ public interface Stack {
      * @return tope de la pila
      */
     int getTop();
+
+    void print();
+    int getCount();
+    int get(int index);
 
 }

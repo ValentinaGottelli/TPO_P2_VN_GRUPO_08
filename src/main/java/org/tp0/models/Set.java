@@ -1,4 +1,4 @@
-package org.example.definition;
+package org.tp0.models;
 
 /**
  * Precondicion: para usar cualquier de estos metodos la estructura debe estar inicializada.
