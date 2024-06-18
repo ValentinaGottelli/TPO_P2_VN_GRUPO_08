@@ -36,12 +36,36 @@ public class QueueOfStacks implements IQueueOfStacks {
         count++;
     }
 
+    //Complejidad de O(n)
     public static int calculoTraza(QueueOfStacks queueOfStacks) {
         int trace = 0;
-        for (int i = 0; i < queueOfStacks.getN(); i++) {
+        for (int i = 0; i < queueOfStacks.getN(); i++) { // N
             trace += queueOfStacks.stacks[i].get(i);
         }
         return trace;
     }
 
+    public static QueueOfStacks traspuesta(QueueOfStacks queueOfStacks) {
+        QueueOfStacks traspuesta = new QueueOfStacks(queueOfStacks.getN());
+
+        for (int i = 0; i < queueOfStacks.getN(); i++) {
+            for (int j = 0; j < queueOfStacks.getN(); j++) {
+                traspuesta.stacks[j].add(queueOfStacks.stacks[i].get(j));
+            }
+        }
+
+        return traspuesta;
+    }
+
+    public void printMatrix() {
+        for (Stack stack : stacks) {
+            int[] array = stack.getArray();
+            for (int value : array) {
+                System.out.print(value + "\t");
+            }
+            System.out.println();
+        }
+
+
+    }
 }

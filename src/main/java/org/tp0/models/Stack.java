@@ -31,5 +31,6 @@ public interface Stack {
     void print();
     int getCount();
     int get(int index);
+    int[] getArray();
 
 }

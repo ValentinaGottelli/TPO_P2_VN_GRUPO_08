@@ -72,8 +72,13 @@ public class StaticStack implements Stack {
         return copy;
     }
 
-    public int get(int index) {
+    public int get(int index) { //C
         return this.array[index];
+    }
+
+    @Override
+    public int[] getArray() {
+        return this.array;
     }
 
 }
