@@ -78,8 +78,6 @@ public class QueueOfStacksTest {
         expectedSum.addStack(stack);
         expectedSum.addStack(stack);
 
-
-        System.out.printf("\n");
         expectedSum.printMatrix();
         System.out.printf("\n");
         actualSum.printMatrix();
