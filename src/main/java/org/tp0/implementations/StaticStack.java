@@ -73,7 +73,7 @@ public class StaticStack implements Stack {
         return copy;
     }
 
-    //3N
+    //3N = N
     public static Stack reverseStack(Stack stack) {
         Stack copy = copy(stack); //2N
         Stack reversed = new StaticStack(stack.getCount());

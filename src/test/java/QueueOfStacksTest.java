@@ -53,13 +53,13 @@ public class QueueOfStacksTest {
         stack2.add(2);
         stack2.add(2);
 
-        expectedTraze.addStack(stack);
-        expectedTraze.addStack(stack);
         expectedTraze.addStack(stack2);
+        expectedTraze.addStack(stack);
+        expectedTraze.addStack(stack);
 
-        expectedTraze.printMatrix();
+        expectedTraze.printQueueOfStacks();
         System.out.printf("\n");
-        actualTraze.printMatrix();
+        actualTraze.printQueueOfStacks();
     }
 
     @Test
@@ -78,8 +78,8 @@ public class QueueOfStacksTest {
         expectedSum.addStack(stack);
         expectedSum.addStack(stack);
 
-        expectedSum.printMatrix();
+        expectedSum.printQueueOfStacks();
         System.out.printf("\n");
-        actualSum.printMatrix();
+        actualSum.printQueueOfStacks();
     }
 }

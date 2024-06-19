@@ -4,6 +4,7 @@ import org.tp0.models.IQueueOfStacks;
 import org.tp0.models.Stack;
 
 import static org.tp0.implementations.StaticStack.copy;
+import static org.tp0.implementations.StaticStack.reverseStack;
 
 
 public class QueueOfStacks implements IQueueOfStacks {
@@ -49,13 +50,21 @@ public class QueueOfStacks implements IQueueOfStacks {
         return trace;
     }
 
-    //Complejidad de O(N+N^2) = O(N^2)
+    /**
+     *en este caso antes de ingresar a cada stack del queue, lo vamos a dar vuelta
+     * para que el get trate al array como un stack, ya que vamos recorriendo de atras
+     * hacia adelante y queremos agarrar los valores del tope del Stack
+     * @param queueOfStacks
+     * @return
+     */
+    //Complejidad de O(N+N^3) = O(N^3)
     public static QueueOfStacks traspuesta(QueueOfStacks queueOfStacks) {
         QueueOfStacks traspuesta = new QueueOfStacks(queueOfStacks.getN()); //O(N)
 
         for (int i = 0; i < queueOfStacks.getN(); i++) { //N
             for (int j = 0; j < queueOfStacks.getN(); j++) {//N
-                traspuesta.stacks[j].add(queueOfStacks.stacks[i].get(j));//c
+                traspuesta.stacks[j].add(reverseStack(queueOfStacks.stacks[i]).get(j));//N
+
             }
         }
 
@@ -73,17 +82,25 @@ public class QueueOfStacks implements IQueueOfStacks {
         return total;
     }
 
-    //la devuelve dada vuelta pero sirve para darse una idea de como se veria la matriz
-    public void printMatrix() {
+
+    public void printQueueOfStacks() {
+
+        int maxSize = 0;
         for (Stack stack : stacks) {
-            int[] array = stack.getArray();
-            int count = stack.getCount();
-            for (int i = 0; i < count; i++) {
-                System.out.print(array[i] + "\t");
+            if (stack.getCount() > maxSize) {
+                maxSize = stack.getCount();
+            }
+        }
+
+        for (int i = maxSize - 1; i >= 0; i--) {
+            for (Stack stack : stacks) {
+                if (i < stack.getCount()) {
+                    System.out.print(stack.getArray()[i] + " ");
+                } else {
+                    System.out.print("  ");
+                }
             }
             System.out.println();
         }
     }
-
-
 }
