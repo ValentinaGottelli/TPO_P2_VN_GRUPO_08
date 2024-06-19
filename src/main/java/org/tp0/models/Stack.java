@@ -29,8 +29,30 @@ public interface Stack {
     int getTop();
 
     void print();
+
     int getCount();
+
+    /**
+     * Obtengo el valor asociado al index solicitado
+     *
+     * @param index
+     * @return
+     */
     int get(int index);
+
+    /**
+     * solamente es usado para poder visualizar la QueueOfStacks
+     *
+     * @return
+     */
     int[] getArray();
+
+    /**
+     * obtenemos el total de un stack con otro
+     *
+     * @param stack
+     * @return
+     */
+    Stack suma(Stack stack);
 
 }

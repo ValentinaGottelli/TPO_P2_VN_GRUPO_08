@@ -54,22 +54,35 @@ public class StaticStack implements Stack {
         }
     }
 
+    //O(2N)
     public static Stack copy(Stack stack) {
         Stack copy = new StaticStack(stack.getCount());
         Stack aux = new StaticStack(stack.getCount());
 
-        while (!stack.isEmpty()) {
+        while (!stack.isEmpty()) { //O(N)
             aux.add(stack.getTop());
             stack.remove();
         }
 
-        while (!aux.isEmpty()) {
+        while (!aux.isEmpty()) {//O(N)
             stack.add(aux.getTop());
             copy.add(aux.getTop());
             aux.remove();
         }
 
         return copy;
+    }
+
+    //3N
+    public static Stack reverseStack(Stack stack) {
+        Stack copy = copy(stack); //2N
+        Stack reversed = new StaticStack(stack.getCount());
+
+        while (!copy.isEmpty()) { //N
+            reversed.add(copy.getTop());
+            copy.remove();
+        }
+        return reversed;
     }
 
     public int get(int index) { //C
@@ -79,6 +92,26 @@ public class StaticStack implements Stack {
     @Override
     public int[] getArray() {
         return this.array;
+    }
+
+    //O(8N)
+    @Override
+    public Stack suma(Stack stack) {
+        Stack total = new StaticStack(this.getCount());
+        Stack copia1 = copy(this);//2N
+        Stack copia2 = copy(stack);//2N
+
+        while (!copia1.isEmpty()) { //N
+            total.add(copia1.getTop() + copia2.getTop());
+            copia1.remove();
+            copia2.remove();
+        }
+
+        //lo devuelvo alrevez ya que al hacer la suma el tope va hacia abajo
+        // cuando queremos que se mantenga en la misma posicion del stack
+        //al hacer la suma
+        //3N
+        return reverseStack(total);
     }
 
 }

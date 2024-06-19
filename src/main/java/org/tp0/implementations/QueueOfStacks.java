@@ -3,6 +3,8 @@ package org.tp0.implementations;
 import org.tp0.models.IQueueOfStacks;
 import org.tp0.models.Stack;
 
+import static org.tp0.implementations.StaticStack.copy;
+
 
 public class QueueOfStacks implements IQueueOfStacks {
 
@@ -47,7 +49,7 @@ public class QueueOfStacks implements IQueueOfStacks {
         return trace;
     }
 
-    //Complejidad de O(N+N^2)
+    //Complejidad de O(N+N^2) = O(N^2)
     public static QueueOfStacks traspuesta(QueueOfStacks queueOfStacks) {
         QueueOfStacks traspuesta = new QueueOfStacks(queueOfStacks.getN()); //O(N)
 
@@ -60,15 +62,28 @@ public class QueueOfStacks implements IQueueOfStacks {
         return traspuesta;
     }
 
+    //Complejidad de O(N+N*8N) = O(N+8N^2) = O(N^2)
+    public static QueueOfStacks sumaMatricial(QueueOfStacks queueOfStacks, QueueOfStacks queueOfStacksSecond) {
+        QueueOfStacks total = new QueueOfStacks(queueOfStacks.getN()); //O(N)
+
+        for (int i = 0; i < queueOfStacks.getN(); i++) { //O(N)
+            total.addStack(queueOfStacks.stacks[i].suma(queueOfStacksSecond.stacks[i]));//O(8N)
+        }
+
+        return total;
+    }
+
+    //la devuelve dada vuelta pero sirve para darse una idea de como se veria la matriz
     public void printMatrix() {
         for (Stack stack : stacks) {
             int[] array = stack.getArray();
-            for (int value : array) {
-                System.out.print(value + "\t");
+            int count = stack.getCount();
+            for (int i = 0; i < count; i++) {
+                System.out.print(array[i] + "\t");
             }
             System.out.println();
         }
-
-
     }
+
+
 }

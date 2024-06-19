@@ -61,4 +61,27 @@ public class QueueOfStacksTest {
         System.out.printf("\n");
         actualTraze.printMatrix();
     }
+
+    @Test
+    public void sumaMatricialTest(){
+        QueueOfStacks queueOfStacks = ejemploQueue();
+
+        QueueOfStacks expectedSum = new QueueOfStacks(3);
+        QueueOfStacks actualSum = sumaMatricial(queueOfStacks,queueOfStacks);
+
+        Stack stack = new StaticStack(3);
+        stack.add(2);
+        stack.add(2);
+        stack.add(4);
+
+        expectedSum.addStack(stack);
+        expectedSum.addStack(stack);
+        expectedSum.addStack(stack);
+
+
+        System.out.printf("\n");
+        expectedSum.printMatrix();
+        System.out.printf("\n");
+        actualSum.printMatrix();
+    }
 }
