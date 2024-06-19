@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32230aae-234e-4544-8c06-abc88d68b3a5" name="Changes" comment="sumo algunos cambios para el ejercicio de traspuesta, arreglo el print de la queue para ver los resultados" />
+    <list default="true" id="32230aae-234e-4544-8c06-abc88d68b3a5" name="Changes" comment="sumo algunos cambios para el ejercicio de traspuesta, arreglo el print de la queue para ver los resultados">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ejercicio2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/models/Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/Set.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +73,8 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "JUnit.All in TPO_P2_VN_GRUPO_08.executor": "Run",
+    "JUnit.Ejercicio2.copiarSet.executor": "Run",
+    "JUnit.Ejercicio2.reverseStackTest.executor": "Run",
     "JUnit.QueueOfStacksTest.executor": "Run",
     "JUnit.QueueOfStacksTest.sumaMatricialTest.executor": "Run",
     "JUnit.QueueOfStacksTest.testTraspuesta.executor": "Run",
@@ -70,9 +82,9 @@
     "Maven.TPO_P2_VN_GRUPO_08 [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "#3 on ej1",
+    "git-widget-placeholder": "ejercicio2",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/valus/Desktop/TPO_P2_VN_GRUPO_08/TPO_P2_VN_GRUPO_08/src/main/java/org/tp0",
+    "last_opened_file_path": "C:/Users/valus/Desktop/TPO_P2_VN_GRUPO_08/TPO_P2_VN_GRUPO_08/src/main/java/org/tp0/implementations",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,6 +96,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\valus\Desktop\TPO_P2_VN_GRUPO_08\TPO_P2_VN_GRUPO_08\src\main\java\org\tp0\implementations" />
+      <recent name="C:\Users\valus\Desktop\TPO_P2_VN_GRUPO_08\TPO_P2_VN_GRUPO_08\src\main\java\org\tp0\models" />
       <recent name="C:\Users\valus\Desktop\TPO_P2_VN_GRUPO_08\TPO_P2_VN_GRUPO_08\src\main\java\org\tp0" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -91,11 +105,23 @@
       <recent name="org.tp0.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QueueOfStacksTest.testTraspuesta">
-    <configuration name="All in TPO_P2_VN_GRUPO_08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Ejercicio2.copiarSet">
+    <configuration name="Ejercicio2.copiarSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TPO_P2_VN_GRUPO_08" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="Ejercicio2" />
+      <option name="METHOD_NAME" value="copiarSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejercicio2.reverseStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TPO_P2_VN_GRUPO_08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Ejercicio2" />
+      <option name="METHOD_NAME" value="reverseStackTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,23 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueOfStacksTest.testTraza" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TPO_P2_VN_GRUPO_08" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueueOfStacksTest" />
-      <option name="METHOD_NAME" value="testTraza" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Ejercicio2.copiarSet" />
+        <item itemvalue="JUnit.Ejercicio2.reverseStackTest" />
+        <item itemvalue="JUnit.QueueOfStacksTest" />
         <item itemvalue="JUnit.QueueOfStacksTest.testTraspuesta" />
         <item itemvalue="JUnit.QueueOfStacksTest.sumaMatricialTest" />
-        <item itemvalue="JUnit.QueueOfStacksTest" />
-        <item itemvalue="JUnit.QueueOfStacksTest.testTraza" />
-        <item itemvalue="JUnit.All in TPO_P2_VN_GRUPO_08" />
       </list>
     </recent_temporary>
   </component>

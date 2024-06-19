@@ -29,4 +29,5 @@ public interface Set {
      */
     int choose();
 
+    void print();
 }
