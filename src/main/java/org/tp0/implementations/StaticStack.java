@@ -5,11 +5,18 @@ import org.tp0.models.Stack;
 
 public class StaticStack implements Stack {
 
+    private final static int MAX = 100;
+
     private final int[] array;
     private int count;
 
     public StaticStack(int tamaño) {
         this.array = new int[tamaño];
+        this.count = 0;
+    }
+
+    public StaticStack() {
+        this.array = new int[MAX];
         this.count = 0;
     }
 
@@ -73,6 +80,7 @@ public class StaticStack implements Stack {
         return copy;
     }
 
+    //2.2 Ej 1
     //3N = N
     public static Stack reverseStack(Stack stack) {
         Stack copy = copy(stack); //2N
