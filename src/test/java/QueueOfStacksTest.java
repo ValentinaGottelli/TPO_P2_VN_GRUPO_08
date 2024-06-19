@@ -57,8 +57,10 @@ public class QueueOfStacksTest {
         expectedTraze.addStack(stack);
         expectedTraze.addStack(stack);
 
+        System.out.printf("Expected \n");
         expectedTraze.printQueueOfStacks();
         System.out.printf("\n");
+        System.out.printf("Actual \n");
         actualTraze.printQueueOfStacks();
     }
 
@@ -78,8 +80,10 @@ public class QueueOfStacksTest {
         expectedSum.addStack(stack);
         expectedSum.addStack(stack);
 
+        System.out.printf("Expected \n");
         expectedSum.printQueueOfStacks();
         System.out.printf("\n");
+        System.out.printf("Actual \n");
         actualSum.printQueueOfStacks();
     }
 }

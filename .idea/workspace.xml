@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32230aae-234e-4544-8c06-abc88d68b3a5" name="Changes" comment="termino el ejercico 1 con todas sus complejidades calculadas y test para probar los ejercicios">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfStacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QueueOfStacksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QueueOfStacksTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="32230aae-234e-4544-8c06-abc88d68b3a5" name="Changes" comment="sumo algunos cambios para el ejercicio de traspuesta, arreglo el print de la queue para ver los resultados" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +91,7 @@
       <recent name="org.tp0.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QueueOfStacksTest">
+  <component name="RunManager" selected="JUnit.QueueOfStacksTest.testTraspuesta">
     <configuration name="All in TPO_P2_VN_GRUPO_08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TPO_P2_VN_GRUPO_08" />
       <option name="PACKAGE_NAME" value="" />
@@ -146,10 +141,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QueueOfStacksTest" />
         <item itemvalue="JUnit.QueueOfStacksTest.testTraspuesta" />
-        <item itemvalue="JUnit.QueueOfStacksTest.testTraza" />
         <item itemvalue="JUnit.QueueOfStacksTest.sumaMatricialTest" />
+        <item itemvalue="JUnit.QueueOfStacksTest" />
+        <item itemvalue="JUnit.QueueOfStacksTest.testTraza" />
         <item itemvalue="JUnit.All in TPO_P2_VN_GRUPO_08" />
       </list>
     </recent_temporary>
@@ -173,7 +168,7 @@
       <workItem from="1718666821957" duration="67000" />
       <workItem from="1718667145556" duration="4050000" />
       <workItem from="1718674359800" duration="11186000" />
-      <workItem from="1718758491559" duration="8884000" />
+      <workItem from="1718758491559" duration="9211000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1714446488199</created>
@@ -244,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718764891789</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="sumo algunos cambios para el ejercicio de traspuesta, arreglo el print de la queue para ver los resultados">
+      <option name="closed" value="true" />
+      <created>1718767789736</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718767789736</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +269,7 @@
     <MESSAGE value="hago cambios en los ejercicios de complejidad computacional" />
     <MESSAGE value="arreglo un poco el ejercicio 1" />
     <MESSAGE value="termino el ejercico 1 con todas sus complejidades calculadas y test para probar los ejercicios" />
-    <option name="LAST_COMMIT_MESSAGE" value="termino el ejercico 1 con todas sus complejidades calculadas y test para probar los ejercicios" />
+    <MESSAGE value="sumo algunos cambios para el ejercicio de traspuesta, arreglo el print de la queue para ver los resultados" />
+    <option name="LAST_COMMIT_MESSAGE" value="sumo algunos cambios para el ejercicio de traspuesta, arreglo el print de la queue para ver los resultados" />
   </component>
 </project>
