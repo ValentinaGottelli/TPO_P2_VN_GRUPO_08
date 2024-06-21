@@ -8,7 +8,7 @@ public class StaticQueue implements Queue {
     private int count;
 
     public StaticQueue(int... elements) {
-        array = new int[10000];
+        array = new int[10];
         count = 0;
 
         for (int element : elements) {
@@ -61,6 +61,32 @@ public class StaticQueue implements Queue {
     @Override
     public int getSize() {
         return this.count;
+    }
+
+    public static Queue copy(Queue queue) {
+        Queue copy = new StaticQueue();
+        Queue aux = new StaticQueue();
+        while (!queue.isEmpty()) {
+            aux.add(queue.getFirst());
+            copy.add(queue.getFirst());
+
+
+            queue.remove();
+        }
+        while (!aux.isEmpty()) {
+            queue.add(aux.getFirst());
+            aux.remove();
+        }
+        return copy;
+    }
+
+    @Override
+    public Queue reverse() {
+        Queue reverse = new StaticQueue();
+        for (int i = this.getSize() - 1; i >= 0; i--) {
+            reverse.add(this.array[i]);
+        }
+        return reverse;
     }
 
 }

@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32230aae-234e-4544-8c06-abc88d68b3a5" name="Changes" comment="sumo algunos cambios para el ejercicio de traspuesta, arreglo el print de la queue para ver los resultados">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/IQueueOfQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QueueOfQueueTest.java" afterDir="false" />
+    <list default="true" id="32230aae-234e-4544-8c06-abc88d68b3a5" name="Changes" comment="ejercicio 3 concatenate resuelto con test para probarlo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/models/IQueueOfQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/IQueueOfQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/models/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QueueOfQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QueueOfQueueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +45,12 @@
     &quot;assignee&quot;: &quot;ValentinaGottelli&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ValentinaGottelli/TPO_P2_VN_GRUPO_08.git&quot;,
-    &quot;accountId&quot;: &quot;460005ec-f6f1-41ca-ba88-5240500ea9a5&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ValentinaGottelli/TPO_P2_VN_GRUPO_08.git",
+    "accountId": "c39085d1-f1d4-4f67-9d67-630adc2b5841"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -74,8 +72,10 @@
     "JUnit.All in TPO_P2_VN_GRUPO_08.executor": "Run",
     "JUnit.Ejercicio2.copiarSet.executor": "Run",
     "JUnit.Ejercicio2.reverseStackTest.executor": "Run",
-    "JUnit.QueueOfQueueTest.concatenateTest.executor": "Debug",
+    "JUnit.QueueOfQueueTest.concatenateTest.executor": "Run",
     "JUnit.QueueOfQueueTest.executor": "Run",
+    "JUnit.QueueOfQueueTest.flatTest.executor": "Debug",
+    "JUnit.QueueOfQueueTest.reverseWithDepthTest.executor": "Debug",
     "JUnit.QueueOfStacksTest.executor": "Run",
     "JUnit.QueueOfStacksTest.sumaMatricialTest.executor": "Run",
     "JUnit.QueueOfStacksTest.testTraspuesta.executor": "Run",
@@ -107,22 +107,12 @@
       <recent name="org.tp0.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QueueOfQueueTest.concatenateTest">
+  <component name="RunManager" selected="JUnit.QueueOfQueueTest.reverseWithDepthTest">
     <configuration name="Ejercicio2.copiarSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TPO_P2_VN_GRUPO_08" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Ejercicio2" />
       <option name="METHOD_NAME" value="copiarSet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ejercicio2.reverseStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TPO_P2_VN_GRUPO_08" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Ejercicio2" />
-      <option name="METHOD_NAME" value="reverseStackTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,22 +137,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueOfStacksTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueOfQueueTest.flatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TPO_P2_VN_GRUPO_08" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueueOfStacksTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="QueueOfQueueTest" />
+      <option name="METHOD_NAME" value="flatTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueOfQueueTest.reverseWithDepthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TPO_P2_VN_GRUPO_08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QueueOfQueueTest" />
+      <option name="METHOD_NAME" value="reverseWithDepthTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QueueOfQueueTest.reverseWithDepthTest" />
         <item itemvalue="JUnit.QueueOfQueueTest.concatenateTest" />
+        <item itemvalue="JUnit.QueueOfQueueTest.flatTest" />
         <item itemvalue="JUnit.QueueOfQueueTest" />
         <item itemvalue="JUnit.Ejercicio2.copiarSet" />
-        <item itemvalue="JUnit.Ejercicio2.reverseStackTest" />
-        <item itemvalue="JUnit.QueueOfStacksTest" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718767789736</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ejercicio 3 concatenate resuelto con test para probarlo">
+      <option name="closed" value="true" />
+      <created>1719003309306</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719003309306</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,15 +296,26 @@
     <MESSAGE value="arreglo un poco el ejercicio 1" />
     <MESSAGE value="termino el ejercico 1 con todas sus complejidades calculadas y test para probar los ejercicios" />
     <MESSAGE value="sumo algunos cambios para el ejercicio de traspuesta, arreglo el print de la queue para ver los resultados" />
-    <option name="LAST_COMMIT_MESSAGE" value="sumo algunos cambios para el ejercicio de traspuesta, arreglo el print de la queue para ver los resultados" />
+    <MESSAGE value="ejercicio 3 concatenate resuelto con test para probarlo" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 3 concatenate resuelto con test para probarlo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfQueue.java</url>
-          <line>18</line>
+          <line>21</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfQueue.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfQueue.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

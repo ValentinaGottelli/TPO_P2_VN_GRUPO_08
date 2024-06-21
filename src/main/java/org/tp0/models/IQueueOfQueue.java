@@ -19,4 +19,7 @@ public interface IQueueOfQueue {
 
     int size();
 
+    Queue flat();
+
+    IQueueOfQueue reverseWithDepth();
 }

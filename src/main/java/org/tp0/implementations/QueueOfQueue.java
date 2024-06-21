@@ -3,6 +3,8 @@ package org.tp0.implementations;
 import org.tp0.models.IQueueOfQueue;
 import org.tp0.models.Queue;
 
+import static org.tp0.implementations.StaticQueue.copy;
+
 
 public class QueueOfQueue implements IQueueOfQueue {
 
@@ -14,6 +16,7 @@ public class QueueOfQueue implements IQueueOfQueue {
         this.count = 0;
     }
 
+    //ejercico 3-1
     @Override
     public IQueueOfQueue concatenate(IQueueOfQueue[] queue) {
         IQueueOfQueue queueOfQueue = new QueueOfQueue();
@@ -60,5 +63,32 @@ public class QueueOfQueue implements IQueueOfQueue {
     public int size() {
         return this.count;
     }
+
+    //Ejercicio 3-2
+    @Override
+    public Queue flat() {
+        Queue queue = new StaticQueue();
+
+        for (int i = 0; i < this.count; i++) {
+            Queue copy = copy(getQueue(i));
+            while (!copy.isEmpty()) {
+                queue.add(copy.getFirst());
+                copy.remove();
+            }
+        }
+
+        return queue;
+    }
+
+
+    public IQueueOfQueue reverseWithDepth() {
+        QueueOfQueue reversedQueue = new QueueOfQueue();
+        for (int i = this.size() - 1; i >= 0; i--) {
+            reversedQueue.addQueue(this.getQueue(i).reverse());
+        }
+        return reversedQueue;
+    }
+
+
 }
 

@@ -32,4 +32,5 @@ public interface Queue {
 
     int getSize();
 
+    Queue reverse();
 }
