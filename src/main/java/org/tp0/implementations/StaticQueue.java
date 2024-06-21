@@ -7,9 +7,13 @@ public class StaticQueue implements Queue {
     private final int[] array;
     private int count;
 
-    public StaticQueue() {
+    public StaticQueue(int... elements) {
         array = new int[10000];
         count = 0;
+
+        for (int element : elements) {
+            add(element);
+        }
     }
 
     @Override
