@@ -3,7 +3,7 @@ package org.tp0.models;
 /**
  * Precondicion: para usar cualquier de estos metodos la estructura debe estar inicializada.
  */
-public interface Set {
+public interface Set extends ICollection {
 
     /**
      * Postcondicion: Agrega un valor al conjunto.
