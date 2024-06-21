@@ -121,5 +121,4 @@ public class StaticStack implements Stack {
         //3N
         return reverseStack(total);
     }
-
 }

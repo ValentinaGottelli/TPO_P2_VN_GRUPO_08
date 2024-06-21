@@ -3,9 +3,7 @@ package org.tp0.implementations;
 import org.tp0.models.IQueueOfStacks;
 import org.tp0.models.Stack;
 
-import static org.tp0.implementations.StaticStack.copy;
 import static org.tp0.implementations.StaticStack.reverseStack;
-
 
 public class QueueOfStacks implements IQueueOfStacks {
 
