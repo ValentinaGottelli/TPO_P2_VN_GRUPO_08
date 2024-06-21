@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32230aae-234e-4544-8c06-abc88d68b3a5" name="Changes" comment="sumo algunos cambios para el ejercicio de traspuesta, arreglo el print de la queue para ver los resultados">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticPriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/PriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ejercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/IQueueOfQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QueueOfQueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/models/Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/Set.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/models/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/Queue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +74,8 @@
     "JUnit.All in TPO_P2_VN_GRUPO_08.executor": "Run",
     "JUnit.Ejercicio2.copiarSet.executor": "Run",
     "JUnit.Ejercicio2.reverseStackTest.executor": "Run",
+    "JUnit.QueueOfQueueTest.concatenateTest.executor": "Debug",
+    "JUnit.QueueOfQueueTest.executor": "Run",
     "JUnit.QueueOfStacksTest.executor": "Run",
     "JUnit.QueueOfStacksTest.sumaMatricialTest.executor": "Run",
     "JUnit.QueueOfStacksTest.testTraspuesta.executor": "Run",
@@ -82,7 +83,8 @@
     "Maven.TPO_P2_VN_GRUPO_08 [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "ejercicio2",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "ej3",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/valus/Desktop/TPO_P2_VN_GRUPO_08/TPO_P2_VN_GRUPO_08/src/main/java/org/tp0/implementations",
     "node.js.detected.package.eslint": "true",
@@ -105,7 +107,7 @@
       <recent name="org.tp0.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Ejercicio2.copiarSet">
+  <component name="RunManager" selected="JUnit.QueueOfQueueTest.concatenateTest">
     <configuration name="Ejercicio2.copiarSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TPO_P2_VN_GRUPO_08" />
       <option name="PACKAGE_NAME" value="" />
@@ -126,6 +128,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QueueOfQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TPO_P2_VN_GRUPO_08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QueueOfQueueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueOfQueueTest.concatenateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TPO_P2_VN_GRUPO_08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QueueOfQueueTest" />
+      <option name="METHOD_NAME" value="concatenateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QueueOfStacksTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TPO_P2_VN_GRUPO_08" />
       <option name="PACKAGE_NAME" value="" />
@@ -135,33 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueOfStacksTest.sumaMatricialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TPO_P2_VN_GRUPO_08" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueueOfStacksTest" />
-      <option name="METHOD_NAME" value="sumaMatricialTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueOfStacksTest.testTraspuesta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TPO_P2_VN_GRUPO_08" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueueOfStacksTest" />
-      <option name="METHOD_NAME" value="testTraspuesta" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QueueOfQueueTest.concatenateTest" />
+        <item itemvalue="JUnit.QueueOfQueueTest" />
         <item itemvalue="JUnit.Ejercicio2.copiarSet" />
         <item itemvalue="JUnit.Ejercicio2.reverseStackTest" />
         <item itemvalue="JUnit.QueueOfStacksTest" />
-        <item itemvalue="JUnit.QueueOfStacksTest.testTraspuesta" />
-        <item itemvalue="JUnit.QueueOfStacksTest.sumaMatricialTest" />
       </list>
     </recent_temporary>
   </component>
@@ -287,5 +288,21 @@
     <MESSAGE value="termino el ejercico 1 con todas sus complejidades calculadas y test para probar los ejercicios" />
     <MESSAGE value="sumo algunos cambios para el ejercicio de traspuesta, arreglo el print de la queue para ver los resultados" />
     <option name="LAST_COMMIT_MESSAGE" value="sumo algunos cambios para el ejercicio de traspuesta, arreglo el print de la queue para ver los resultados" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfQueue.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="queue.length" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
