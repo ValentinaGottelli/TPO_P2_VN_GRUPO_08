@@ -28,4 +28,9 @@ public interface Queue {
      */
     int getFirst();
 
+    public void printQueue();
+
+    int getSize();
+
+    Queue reverse();
 }
