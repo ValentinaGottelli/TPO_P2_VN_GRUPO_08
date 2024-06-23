@@ -1,4 +1,4 @@
-package org.tp0.implementations;
+package org.tp0.implementations.ejercicioCinco;
 
 public class Coordinate {
     private double x;

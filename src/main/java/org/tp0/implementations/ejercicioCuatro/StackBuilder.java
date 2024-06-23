@@ -1,5 +1,7 @@
-package org.tp0.implementations;
+package org.tp0.implementations.ejercicioCuatro;
 
+import org.tp0.implementations.ejercicioDos.StaticSet;
+import org.tp0.implementations.ejercicioDos.StaticStack;
 import org.tp0.models.Set;
 import org.tp0.models.Stack;
 

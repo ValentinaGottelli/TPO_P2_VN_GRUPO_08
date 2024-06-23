@@ -3,7 +3,7 @@ import static org.junit.Assert.assertArrayEquals;
 import java.util.Arrays;
 
 import org.junit.Test;
-import org.tp0.implementations.StaticStack;
+import org.tp0.implementations.ejercicioDos.StaticStack;
 import org.tp0.models.Stack;
 
 import utils.StackUtils;

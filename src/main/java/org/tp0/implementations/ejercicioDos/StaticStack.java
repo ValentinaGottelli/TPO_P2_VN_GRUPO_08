@@ -1,4 +1,4 @@
-package org.tp0.implementations;
+package org.tp0.implementations.ejercicioDos;
 
 
 import org.tp0.models.Stack;

@@ -1,9 +1,10 @@
-package org.tp0.implementations;
+package org.tp0.implementations.ejercicioUno;
 
+import org.tp0.implementations.ejercicioDos.StaticStack;
 import org.tp0.models.IQueueOfStacks;
 import org.tp0.models.Stack;
 
-import static org.tp0.implementations.StaticStack.reverseStack;
+import static org.tp0.implementations.ejercicioDos.StaticStack.reverseStack;
 
 public class QueueOfStacks implements IQueueOfStacks {
 

@@ -7,6 +7,7 @@ public class StaticQueue implements Queue {
     private final int[] array;
     private int count;
 
+    //Parte del ejercicio 4
     public StaticQueue(int... elements) {
         array = new int[10];
         count = 0;

@@ -1,5 +1,5 @@
 import org.junit.Test;
-import org.tp0.implementations.QueueOfQueue;
+import org.tp0.implementations.ejercicioTres.QueueOfQueue;
 import org.tp0.implementations.StaticQueue;
 import org.tp0.models.IQueueOfQueue;
 import org.tp0.models.Queue;

@@ -1,5 +1,6 @@
-package org.tp0.implementations;
+package org.tp0.implementations.ejercicioTres;
 
+import org.tp0.implementations.StaticQueue;
 import org.tp0.models.IQueueOfQueue;
 import org.tp0.models.Queue;
 

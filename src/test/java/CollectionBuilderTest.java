@@ -3,9 +3,9 @@ import static org.junit.Assert.assertTrue;
 import java.util.Arrays;
 
 import org.junit.Test;
-import org.tp0.implementations.CollectionBuilder;
-import org.tp0.implementations.StaticSet;
-import org.tp0.implementations.StaticStack;
+import org.tp0.implementations.ejercicioCinco.CollectionBuilder;
+import org.tp0.implementations.ejercicioDos.StaticSet;
+import org.tp0.implementations.ejercicioDos.StaticStack;
 import org.tp0.models.Set;
 import org.tp0.models.Stack;
 

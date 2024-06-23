@@ -2,7 +2,7 @@ package utils;
 
 import java.util.TreeSet;
 
-import org.tp0.implementations.StaticStack;
+import org.tp0.implementations.ejercicioDos.StaticStack;
 import org.tp0.models.Stack;
 
 public class StackUtils {

@@ -1,10 +1,10 @@
 import org.junit.Test;
-import org.tp0.implementations.QueueOfStacks;
-import org.tp0.implementations.StaticStack;
+import org.tp0.implementations.ejercicioUno.QueueOfStacks;
+import org.tp0.implementations.ejercicioDos.StaticStack;
 import org.tp0.models.Stack;
 
 import static org.junit.Assert.assertEquals;
-import static org.tp0.implementations.QueueOfStacks.*;
+import static org.tp0.implementations.ejercicioUno.QueueOfStacks.*;
 
 public class QueueOfStacksTest {
 

@@ -3,9 +3,9 @@ import static org.junit.Assert.assertEquals;
 import java.util.Set;
 
 import org.junit.Test;
-import org.tp0.implementations.Coordinate;
-import org.tp0.implementations.CoordinateSet;
-import org.tp0.implementations.MonteCarlo;
+import org.tp0.implementations.ejercicioCinco.Coordinate;
+import org.tp0.implementations.ejercicioCinco.CoordinateSet;
+import org.tp0.implementations.ejercicioCinco.MonteCarlo;
 
 public class MonteCarloTest {
     @Test

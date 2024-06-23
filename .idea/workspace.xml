@@ -6,11 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="32230aae-234e-4544-8c06-abc88d68b3a5" name="Changes" comment="ejercicio 3 concatenate resuelto con test para probarlo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/CollectionBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/CollectionBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioTres/QueueOfQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioUno/QueueOfStacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/SetBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioCuatro/SetBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StackBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioCuatro/StackBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioDos/StaticPriorityQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioDos/StaticSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/StaticStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioDos/StaticStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/models/IQueueOfQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/IQueueOfQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/models/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/StackUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/StackUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CollectionBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CollectionBuilderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ejercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ejercicio2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/QueueOfQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QueueOfQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QueueOfStacksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QueueOfStacksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StackUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StackUtilsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +59,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/ValentinaGottelli/TPO_P2_VN_GRUPO_08.git",
-    "accountId": "c39085d1-f1d4-4f67-9d67-630adc2b5841"
+    "accountId": "460005ec-f6f1-41ca-ba88-5240500ea9a5"
   }
 }]]></component>
   <component name="MarkdownSettingsMigration">
@@ -84,9 +95,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "ej3",
+    "git-widget-placeholder": "develop",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/valus/Desktop/TPO_P2_VN_GRUPO_08/TPO_P2_VN_GRUPO_08/src/main/java/org/tp0/implementations",
+    "last_opened_file_path": "C:/Users/valus/Desktop/TPO_P2_VN_GRUPO_08/TPO_P2_VN_GRUPO_08/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -187,6 +198,7 @@
       <workItem from="1718667145556" duration="4050000" />
       <workItem from="1718674359800" duration="11186000" />
       <workItem from="1718758491559" duration="9211000" />
+      <workItem from="1719183275012" duration="1345000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1714446488199</created>
@@ -300,25 +312,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="ejercicio 3 concatenate resuelto con test para probarlo" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfQueue.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfQueue.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/tp0/implementations/QueueOfQueue.java</url>
-          <line>84</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="queue.length" language="JAVA" />

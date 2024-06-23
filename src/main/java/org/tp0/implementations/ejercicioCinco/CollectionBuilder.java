@@ -1,5 +1,6 @@
-package org.tp0.implementations;
+package org.tp0.implementations.ejercicioCinco;
 
+import org.tp0.implementations.ejercicioDos.StaticSet;
 import org.tp0.models.ICollection;
 import org.tp0.models.Set;
 
