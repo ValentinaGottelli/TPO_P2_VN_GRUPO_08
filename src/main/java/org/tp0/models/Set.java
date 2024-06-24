@@ -30,4 +30,7 @@ public interface Set extends ICollection {
     int choose();
 
     void print();
+
+    //solo se usa para los test
+    int[] getArray();
 }

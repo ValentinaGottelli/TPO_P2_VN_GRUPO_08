@@ -61,6 +61,11 @@ public class SuperConjunto implements Set {
         }
     }
 
+    @Override
+    public int[] getArray() {
+        return this.array;
+    }
+
     public static boolean in(Set a, int element) {
         Set aux = new StaticSet();
         boolean exists = false;

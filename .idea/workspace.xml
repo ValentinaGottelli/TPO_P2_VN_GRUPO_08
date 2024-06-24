@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32230aae-234e-4544-8c06-abc88d68b3a5" name="Changes" comment="cambio de lugar los ejercicios dentro de carpetas para que se entienda mejor">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioSeis/DynamicStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioSeis/SuperConjunto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ejercicio6.java" afterDir="false" />
+    <list default="true" id="32230aae-234e-4544-8c06-abc88d68b3a5" name="Changes" comment="ejercicio 6 parte 1 y 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioSeis/DynamicQueueTwiceLinked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioSeis/NodeTwiceLinked.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioDos/StaticSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioDos/StaticSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioDos/StaticStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioDos/StaticStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioSeis/SuperConjunto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioSeis/SuperConjunto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/models/Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/Set.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ejercicio6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ejercicio6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +74,10 @@
     "JUnit.All in TPO_P2_VN_GRUPO_08.executor": "Run",
     "JUnit.Ejercicio2.copiarSet.executor": "Run",
     "JUnit.Ejercicio2.reverseStackTest.executor": "Run",
+    "JUnit.Ejercicio6.colaCiclicaDoblementeEnlazada.executor": "Run",
+    "JUnit.Ejercicio6.complementoTest.executor": "Run",
+    "JUnit.Ejercicio6.esSubconjuntoTest.executor": "Run",
+    "JUnit.Ejercicio6.listaCiclicaDoblementeEnlazada.executor": "Debug",
     "JUnit.Ejercicio6.testAdd_throwsExceptionWhenFull.executor": "Run",
     "JUnit.QueueOfQueueTest.concatenateTest.executor": "Run",
     "JUnit.QueueOfQueueTest.executor": "Run",
@@ -112,7 +119,47 @@
       <recent name="org.tp0.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Ejercicio6.testAdd_throwsExceptionWhenFull">
+  <component name="RunManager" selected="JUnit.Ejercicio6.colaCiclicaDoblementeEnlazada">
+    <configuration name="Ejercicio6.colaCiclicaDoblementeEnlazada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TPO_P2_VN_GRUPO_08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Ejercicio6" />
+      <option name="METHOD_NAME" value="colaCiclicaDoblementeEnlazada" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejercicio6.complementoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TPO_P2_VN_GRUPO_08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Ejercicio6" />
+      <option name="METHOD_NAME" value="complementoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejercicio6.esSubconjuntoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TPO_P2_VN_GRUPO_08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Ejercicio6" />
+      <option name="METHOD_NAME" value="esSubconjuntoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejercicio6.listaCiclicaDoblementeEnlazada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TPO_P2_VN_GRUPO_08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Ejercicio6" />
+      <option name="METHOD_NAME" value="listaCiclicaDoblementeEnlazada" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ejercicio6.testAdd_throwsExceptionWhenFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TPO_P2_VN_GRUPO_08" />
       <option name="PACKAGE_NAME" value="" />
@@ -123,51 +170,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueOfQueueTest.concatenateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TPO_P2_VN_GRUPO_08" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueueOfQueueTest" />
-      <option name="METHOD_NAME" value="concatenateTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueOfQueueTest.flatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TPO_P2_VN_GRUPO_08" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueueOfQueueTest" />
-      <option name="METHOD_NAME" value="flatTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueOfQueueTest.reverseWithDepthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TPO_P2_VN_GRUPO_08" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueueOfQueueTest" />
-      <option name="METHOD_NAME" value="reverseWithDepthTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="java in TPO_P2_VN_GRUPO_08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TPO_P2_VN_GRUPO_08" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Ejercicio6.colaCiclicaDoblementeEnlazada" />
+        <item itemvalue="JUnit.Ejercicio6.listaCiclicaDoblementeEnlazada" />
+        <item itemvalue="JUnit.Ejercicio6.complementoTest" />
+        <item itemvalue="JUnit.Ejercicio6.esSubconjuntoTest" />
         <item itemvalue="JUnit.Ejercicio6.testAdd_throwsExceptionWhenFull" />
-        <item itemvalue="JUnit.java in TPO_P2_VN_GRUPO_08" />
-        <item itemvalue="JUnit.QueueOfQueueTest.reverseWithDepthTest" />
-        <item itemvalue="JUnit.QueueOfQueueTest.concatenateTest" />
-        <item itemvalue="JUnit.QueueOfQueueTest.flatTest" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +200,7 @@
       <workItem from="1718667145556" duration="4050000" />
       <workItem from="1718674359800" duration="11186000" />
       <workItem from="1718758491559" duration="9211000" />
-      <workItem from="1719183275012" duration="5081000" />
+      <workItem from="1719183275012" duration="13517000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1714446488199</created>
@@ -286,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719184821968</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ejercicio 6 parte 1 y 2">
+      <option name="closed" value="true" />
+      <created>1719188659515</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719188659515</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,9 +328,19 @@
     <MESSAGE value="sumo algunos cambios para el ejercicio de traspuesta, arreglo el print de la queue para ver los resultados" />
     <MESSAGE value="ejercicio 3 concatenate resuelto con test para probarlo" />
     <MESSAGE value="cambio de lugar los ejercicios dentro de carpetas para que se entienda mejor" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambio de lugar los ejercicios dentro de carpetas para que se entienda mejor" />
+    <MESSAGE value="ejercicio 6 parte 1 y 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 6 parte 1 y 2" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioSeis/DynamicQueueTwiceLinked.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="queue.length" language="JAVA" />
