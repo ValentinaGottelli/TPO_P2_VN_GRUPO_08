@@ -2,7 +2,9 @@ import org.junit.Test;
 import org.tp0.implementations.ejercicioDos.StaticSet;
 import org.tp0.implementations.ejercicioSeis.DynamicQueueTwiceLinked;
 import org.tp0.implementations.ejercicioSeis.DynamicStack;
+import org.tp0.implementations.ejercicioSeis.SetWithTuples;
 import org.tp0.implementations.ejercicioSeis.SuperConjunto;
+import org.tp0.models.ITupleForSet;
 import org.tp0.models.Set;
 import org.tp0.models.Stack;
 
@@ -76,5 +78,19 @@ public class Ejercicio6 {
         dynamicQueueTwiceLinked.remove();
 
         assertEquals(dynamicQueueTwiceLinked.getFirst(), 1);
+    }
+
+    @Test
+    public void conjuntoConRepetidos() {
+        ITupleForSet tuple = new SetWithTuples();
+
+        tuple.add(1);
+        tuple.add(1);
+        tuple.add(2);
+        tuple.add(3);
+
+        tuple.remove(2);
+
+        assertEquals(tuple.get(1), 2);
     }
 }
