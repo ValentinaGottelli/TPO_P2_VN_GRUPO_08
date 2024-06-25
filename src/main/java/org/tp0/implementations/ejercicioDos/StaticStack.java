@@ -115,7 +115,7 @@ public class StaticStack implements Stack {
             copia2.remove();
         }
 
-        //lo devuelvo alrevez ya que al hacer la suma el tope va hacia abajo
+        //lo devuelvo al reves ya que al hacer la suma el tope va hacia abajo
         // cuando queremos que se mantenga en la misma posicion del stack
         //al hacer la suma
         //3N

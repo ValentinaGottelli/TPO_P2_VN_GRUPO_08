@@ -57,10 +57,16 @@ public class StaticSet implements Set {
 
     @Override
     public void print() {
-        for (int i = array.length - 1; i >= 0; i--) {
+        for (int i = count - 1; i >= 0; i--) {
             System.out.println(array[i]);
         }
     }
+
+    @Override
+    public int[] getArray() {
+        return this.array;
+    }
+
 
     // 2.2 ejercicio 2
     public static Set copy(Set set) {
