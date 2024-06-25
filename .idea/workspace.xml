@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32230aae-234e-4544-8c06-abc88d68b3a5" name="Changes" comment="ejercicio 6 parte 4 con test incluido">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioSeis/DiccionarioAleatorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/MultipleDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioSiete/StaticPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ejercicio7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ejercicio6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ejercicio6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +75,7 @@
     "JUnit.Ejercicio6.getRandonValueTest.executor": "Run",
     "JUnit.Ejercicio6.listaCiclicaDoblementeEnlazada.executor": "Debug",
     "JUnit.Ejercicio6.testAdd_throwsExceptionWhenFull.executor": "Run",
+    "JUnit.Ejercicio7.updatePriorityTest.executor": "Run",
     "JUnit.QueueOfQueueTest.concatenateTest.executor": "Run",
     "JUnit.QueueOfQueueTest.executor": "Run",
     "JUnit.QueueOfQueueTest.flatTest.executor": "Debug",
@@ -89,7 +89,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "#9 on ej6",
+    "git-widget-placeholder": "ej7",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/valus/Desktop/TPO_P2_VN_GRUPO_08/TPO_P2_VN_GRUPO_08/pom.xml",
     "node.js.detected.package.eslint": "true",
@@ -108,6 +108,7 @@
       <recent name="C:\Users\valus\Desktop\TPO_P2_VN_GRUPO_08\TPO_P2_VN_GRUPO_08\src\main\java\org\tp0" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\valus\Desktop\TPO_P2_VN_GRUPO_08\TPO_P2_VN_GRUPO_08\src\main\java\org\tp0\implementations\ejercicioSiete" />
       <recent name="C:\Users\valus\Desktop\TPO_P2_VN_GRUPO_08\TPO_P2_VN_GRUPO_08\src\main\java\org\tp0\implementations\ejercicioSeis" />
       <recent name="C:\Users\valus\Desktop\TPO_P2_VN_GRUPO_08\TPO_P2_VN_GRUPO_08\src\main\java\org\tp0\models" />
     </key>
@@ -116,7 +117,7 @@
       <recent name="org.tp0.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Ejercicio6.getRandonValueTest">
+  <component name="RunManager" selected="JUnit.Ejercicio7.updatePriorityTest">
     <configuration name="Ejercicio6.colaCiclicaDoblementeEnlazada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TPO_P2_VN_GRUPO_08" />
       <option name="PACKAGE_NAME" value="" />
@@ -132,16 +133,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Ejercicio6" />
       <option name="METHOD_NAME" value="complementoTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ejercicio6.esSubconjuntoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TPO_P2_VN_GRUPO_08" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Ejercicio6" />
-      <option name="METHOD_NAME" value="esSubconjuntoTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,13 +158,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ejercicio7.updatePriorityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TPO_P2_VN_GRUPO_08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Ejercicio7" />
+      <option name="METHOD_NAME" value="updatePriorityTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Ejercicio7.updatePriorityTest" />
         <item itemvalue="JUnit.Ejercicio6.getRandonValueTest" />
         <item itemvalue="JUnit.Ejercicio6.colaCiclicaDoblementeEnlazada" />
         <item itemvalue="JUnit.Ejercicio6.listaCiclicaDoblementeEnlazada" />
         <item itemvalue="JUnit.Ejercicio6.complementoTest" />
-        <item itemvalue="JUnit.Ejercicio6.esSubconjuntoTest" />
       </list>
     </recent_temporary>
   </component>
