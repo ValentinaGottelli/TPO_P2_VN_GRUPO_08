@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32230aae-234e-4544-8c06-abc88d68b3a5" name="Changes" comment="ejercicio 6 parte 1 y 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioSeis/DynamicQueueTwiceLinked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioSeis/NodeTwiceLinked.java" afterDir="false" />
+    <list default="true" id="32230aae-234e-4544-8c06-abc88d68b3a5" name="Changes" comment="ejercicio 6 parte 4 con test incluido">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioSeis/DiccionarioAleatorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/MultipleDictionary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioDos/StaticSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioDos/StaticSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioDos/StaticStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioDos/StaticStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioSeis/SuperConjunto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/implementations/ejercicioSeis/SuperConjunto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tp0/models/Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tp0/models/Set.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Ejercicio6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ejercicio6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,12 +43,12 @@
     &quot;assignee&quot;: &quot;ValentinaGottelli&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ValentinaGottelli/TPO_P2_VN_GRUPO_08.git",
-    "accountId": "460005ec-f6f1-41ca-ba88-5240500ea9a5"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ValentinaGottelli/TPO_P2_VN_GRUPO_08.git&quot;,
+    &quot;accountId&quot;: &quot;460005ec-f6f1-41ca-ba88-5240500ea9a5&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -77,6 +73,7 @@
     "JUnit.Ejercicio6.colaCiclicaDoblementeEnlazada.executor": "Run",
     "JUnit.Ejercicio6.complementoTest.executor": "Run",
     "JUnit.Ejercicio6.esSubconjuntoTest.executor": "Run",
+    "JUnit.Ejercicio6.getRandonValueTest.executor": "Run",
     "JUnit.Ejercicio6.listaCiclicaDoblementeEnlazada.executor": "Debug",
     "JUnit.Ejercicio6.testAdd_throwsExceptionWhenFull.executor": "Run",
     "JUnit.QueueOfQueueTest.concatenateTest.executor": "Run",
@@ -92,7 +89,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "ej6",
+    "git-widget-placeholder": "#9 on ej6",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/valus/Desktop/TPO_P2_VN_GRUPO_08/TPO_P2_VN_GRUPO_08/pom.xml",
     "node.js.detected.package.eslint": "true",
@@ -119,7 +116,7 @@
       <recent name="org.tp0.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Ejercicio6.colaCiclicaDoblementeEnlazada">
+  <component name="RunManager" selected="JUnit.Ejercicio6.getRandonValueTest">
     <configuration name="Ejercicio6.colaCiclicaDoblementeEnlazada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TPO_P2_VN_GRUPO_08" />
       <option name="PACKAGE_NAME" value="" />
@@ -150,6 +147,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ejercicio6.getRandonValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TPO_P2_VN_GRUPO_08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Ejercicio6" />
+      <option name="METHOD_NAME" value="getRandonValueTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ejercicio6.listaCiclicaDoblementeEnlazada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TPO_P2_VN_GRUPO_08" />
       <option name="PACKAGE_NAME" value="" />
@@ -160,23 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejercicio6.testAdd_throwsExceptionWhenFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TPO_P2_VN_GRUPO_08" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Ejercicio6" />
-      <option name="METHOD_NAME" value="testAdd_throwsExceptionWhenFull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Ejercicio6.getRandonValueTest" />
         <item itemvalue="JUnit.Ejercicio6.colaCiclicaDoblementeEnlazada" />
         <item itemvalue="JUnit.Ejercicio6.listaCiclicaDoblementeEnlazada" />
         <item itemvalue="JUnit.Ejercicio6.complementoTest" />
         <item itemvalue="JUnit.Ejercicio6.esSubconjuntoTest" />
-        <item itemvalue="JUnit.Ejercicio6.testAdd_throwsExceptionWhenFull" />
       </list>
     </recent_temporary>
   </component>
@@ -201,6 +198,7 @@
       <workItem from="1718674359800" duration="11186000" />
       <workItem from="1718758491559" duration="9211000" />
       <workItem from="1719183275012" duration="13517000" />
+      <workItem from="1719281065318" duration="1172000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1714446488199</created>
@@ -303,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719188659515</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ejercicio 6 parte 4 con test incluido">
+      <option name="closed" value="true" />
+      <created>1719203669695</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719203669695</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +335,8 @@
     <MESSAGE value="ejercicio 3 concatenate resuelto con test para probarlo" />
     <MESSAGE value="cambio de lugar los ejercicios dentro de carpetas para que se entienda mejor" />
     <MESSAGE value="ejercicio 6 parte 1 y 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 6 parte 1 y 2" />
+    <MESSAGE value="ejercicio 6 parte 4 con test incluido" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 6 parte 4 con test incluido" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

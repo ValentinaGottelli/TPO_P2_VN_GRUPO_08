@@ -1,9 +1,6 @@
 import org.junit.Test;
 import org.tp0.implementations.ejercicioDos.StaticSet;
-import org.tp0.implementations.ejercicioSeis.DynamicQueueTwiceLinked;
-import org.tp0.implementations.ejercicioSeis.DynamicStack;
-import org.tp0.implementations.ejercicioSeis.SetWithTuples;
-import org.tp0.implementations.ejercicioSeis.SuperConjunto;
+import org.tp0.implementations.ejercicioSeis.*;
 import org.tp0.models.ITupleForSet;
 import org.tp0.models.Set;
 import org.tp0.models.Stack;
@@ -93,4 +90,16 @@ public class Ejercicio6 {
 
         assertEquals(tuple.get(1), 2);
     }
+
+    @Test
+    public void getRandonValueTest() {
+        DiccionarioAleatorio diccionarioAleatorio = new DiccionarioAleatorio();
+
+        diccionarioAleatorio.add(1, 1);
+        diccionarioAleatorio.add(1, 2);
+        diccionarioAleatorio.add(2, 3);
+
+        System.out.println(diccionarioAleatorio.getRandomValue(1));
+    }
+
 }
